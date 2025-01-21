@@ -17,6 +17,11 @@ app.post("/processForm", function (req, res) {
   });
 });
 
+
+app.get("/clientForm", function (req, res) {
+   
+});
+
 app.listen(3000, () => {
   console.log("Server listening on port: 3000");
 });
