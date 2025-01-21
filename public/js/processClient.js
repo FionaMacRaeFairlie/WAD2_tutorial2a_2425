@@ -9,7 +9,6 @@ function displayName(evt) {
   let firstName = document.getElementById("firstName").value;
   let lastName = document.getElementById("surname").value;
 
-  // Reference to the results container
   let output = document.getElementById("output");
   output.innerHTML = ""; // Clear previous results
 
