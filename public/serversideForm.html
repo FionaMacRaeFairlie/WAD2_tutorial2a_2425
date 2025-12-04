@@ -1,34 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Basic Form Example</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Basic Form Example </title>
-</head>
-
-<body>
+  <body>
     <header>
-        <h1>Serverside Form</h1>
+      <h1>Serverside Form</h1>
     </header>
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="clientsideForm.html">Clientside form processing</a></li>
-            <li><a href="serversideForm.html">Serverside form processing</a></li>
-        </ul>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="clientsideForm.html">Clientside form processing</a></li>
+        <li><a href="serversideForm.html">Serverside form processing</a></li>
+      </ul>
     </nav>
     <form action="/processForm" method="POST">
-        <fieldset>
-            <label>Enter your first name</label>
-            <input type="text" name="firstName" required>
-            <br><br>
-            <label>Enter second number</label>
-            <input type="text" name="surname" required>
-            <br><br>
-            <button type="submit">Submit</button>
-        </fieldset>
+      <fieldset>
+        <label>Enter your first name</label>
+        <input type="text" name="firstName" required />
+        <br /><br />
+        <label>Enter second name</label>
+        <input type="text" name="surname" required />
+        <br /><br />
+        <button type="submit">Submit</button>
+      </fieldset>
     </form>
-</body>
-
+  </body>
 </html>
